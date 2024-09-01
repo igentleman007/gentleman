@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)file:///C:/Users/User/Documents/loadig%20page.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suraj�s Personal Webpage</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono&family=Special+Elite&display=swap');
+
+        /* Loader Styles */
+        #loader {
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 9999;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .spinner {
+            border: 16px solid #f3f3f3;
+            border-top: 16px solid #3498db;
+            border-radius: 50%;
+            width: 120px;
+            height: 120px;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        body {
+            font-family: 'Special Elite', cursive;
+            margin: 0;
+            padding: 0;
+            background: url('https://i.imgur.com/kUUk62p.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            display: none; /* Initially hide the body */
+        }
+
+        header, footer {
+            background: url('https://www.easthalldesign.com/wp-content/uploads/2019/11/animation-on-the-web.gif') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            font-family: 'Space Mono', monospace;
+            margin: 0;
+            padding: 10px 0;
+        }
+
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .social-media a {
+            display: inline-flex;
+            align-items: center;
+            margin-right: 10px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .social-media img {
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .logo {
+            width: 40px; /* Adjust size as needed */
+            height: auto;
+            vertical-align: middle;
+            margin-right: 10px; /* Space between logo and heading */
+        }
+    </style>
+</head>
+<body style="display: block;">
+
+<div id="loader" style="display: none;">
+    <div class="spinner"></div>
+</div>
+
+<header>
+    <h1>WELCOME TO SURAJ'S WEBPAGE</h1>
+</header>
+
+<div class="container">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hey everyone, I�m Suraj! I�m a tech enthusiast currently navigating the world of technology with a focus on [your areas of interest, e.g., cryptocurrency, remote access tools, etc.]. I enjoy listening to music from artists like Juice WRLD, Post Malone, Future, and Travis Scott. I�m also passionate about sharing my knowledge and insights through my Quora space and blog.</p>
+        <img src="file:///C:/Users/User/Documents/images/profile.jpg" alt="Suraj&#39;s Profile Picture">
+    </section>
+
+    <section id="tech-hunters">
+        <h2>Tech Hunters</h2>
+        <p>Check out my blog, <a href="https://techhuntersblogs.blogspot.com/" target="_blank">Tech Hunters</a>, where I post articles about the latest in technology, guides, and tutorials. Feel free to explore and engage with the content!</p>
+    </section>
+
+    <section id="your-voice">
+        <h2>Your Voice</h2>
+        <p>I also run a Quora space called <a href="https://yoursvoice.quora.com/" target="_blank">Your Voice</a>, which focuses on raising political issues, law failures, and recent events. Join the conversation and stay informed!</p>
+    </section>
+
+    <section id="social-media">
+        <h2>Social Media</h2>
+        <p>You can connect with me on various platforms:</p>
+        <div class="social-media">
+            <a href="https://www.linkedin.com/in/suraj-saini-0053b8315/" target="_blank">
+                <img src="./Suraj�s Personal Webpage_files/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="LinkedIn Logo">
+                LinkedIn
+            </a>
+            <a href="https://www.instagram.com/gentleman8955/" target="_blank">
+                <img src="./Suraj�s Personal Webpage_files/instagram-logo-vector_768467-330.jpg" alt="Instagram Logo (Personal)">
+                Instagram (Personal)
+            </a>
+            <a href="https://www.instagram.com/memelord2998/" target="_blank">
+                <img src="./Suraj�s Personal Webpage_files/instagram-logo-vector_768467-330.jpg" alt="Instagram Logo (Professional)">
+                Instagram (Professional Account)
+            </a>
+            <a href="https://www.quora.com/profile/Suraj-Saini-498" target="_blank">
+                <img src="./Suraj�s Personal Webpage_files/png-transparent-quora-social-media-computer-icons-logo-social-networking-service-social-media.png" alt="Quora Logo">
+                Quora
+            </a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Feel free to reach out to me via email at <a href="mailto:surajthevictor@gmail.com">surajthevictor@gmail.com</a> for any inquiries, collaborations, or just to say hi!</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2024 Suraj Saini. All rights reserved.</p>
+</footer>
+
+<script>
+    window.addEventListener("load", function(){
+        document.getElementById("loader").style.display = "none";
+        document.body.style.display = "block";
+    });
+</script>
+
+
+
+</body></html>
